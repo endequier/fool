@@ -1,0 +1,25 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Тестовый чатик</title>
+  <link rel="stylesheet" href="../public/css/style.css"/>
+  <script src="../public/js/jquery.js"></script>
+  <script src="../public/js/underscore.js"></script>
+  <script src="../public/js/backbone.js"></script>
+</head>
+<body>
+  <div id="wrap">
+     <!-- <div id="login_button" onclick="VK.Auth.login(authInfo);"></div>   -->
+      <!--<div id="chat-field">Loading...</div>  -->
+      <input placeholder="Enter your nickname" id="input-nick"/>
+      <div class="player-list"></div>
+      <h1>Рука :</h1>
+      <div id="content"> </div>
+      <h1>Стол :</h1>
+      <div class="card-table"></div>
+  </div>
+ <!-- <script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>    -->
+  <script src="http://node.dev.market-helper.ru/socket.io/socket.io.js"> </script>
+  <script src="/public/js/durak.js"></script>
+</body>
+</html>
