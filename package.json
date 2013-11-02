@@ -1,0 +1,21 @@
+{
+  "name": "fool",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/endequier/fool.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "express": "~3.4.4",
+    "mysql": "~2.0.0-alpha9",
+    "path": "~0.4.9",
+    "cookie": "~0.1.0",
+    "ejs": "~0.8.4",
+    "connect": "~2.11.0",
+    "socket.io": "~0.9.16",
+    "grunt-contrib-stylus": "~0.9.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
